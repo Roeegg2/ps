@@ -20,6 +20,7 @@
 9. Threads 19 - the number of threads the process has
 10. RSS 23 - the number of pages the process has in real memory
 
+
 11. Uid - status file - real, effective and saved uid
 12. Gid - status file - real, effective and saved gid
 13. Wchan - wchan file - the address of the kernel function the process is blocked in
