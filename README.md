@@ -9,19 +9,19 @@
 
 # Explanation of each of the fields displayed:
 
-PID 0 - the ID of the process
-Comm 1 - the name assosiacted with the process
-State 2 - the current state of the process
-PPID 3 - the ID of the parent of the process
-Utime 13 - the amount of time the process has been scheduled in user mode (in CPU ticks)
-Stime 14 - the amount of time the process has been scheduled in kernel mode (in CPU ticks)
-Priority 17 - the actual priority of the process the kernel sees
-Nice 18 - 'how nice the process is' this value affects the Priority value of the process. (from what I understand it differs between different kernel versions)
-Threads 19 - the number of threads the process has
-RSS 23 - the number of pages the process has in real memory
+1. PID 0 - the ID of the process
+2. Comm 1 - the name assosiacted with the process
+3. State 2 - the current state of the process
+4. PPID 3 - the ID of the parent of the process
+5. Utime 13 - the amount of time the process has been scheduled in user mode (in CPU ticks)
+6. Stime 14 - the amount of time the process has been scheduled in kernel mode (in CPU ticks)
+7. Priority 17 - the actual priority of the process the kernel sees
+8. Nice 18 - 'how nice the process is' this value affects the Priority value of the process. (from what I understand it differs between different kernel versions)
+9. Threads 19 - the number of threads the process has
+10. RSS 23 - the number of pages the process has in real memory
 
-Uid - status file - real, effective and saved uid
-Gid - status file - real, effective and saved gid
-Wchan - wchan file - the address of the kernel function the process is blocked in
-Tty - fd/0 symlink - the tty device the process is running on
+11. Uid - status file - real, effective and saved uid
+12. Gid - status file - real, effective and saved gid
+13. Wchan - wchan file - the address of the kernel function the process is blocked in
+14. Tty - fd/0 symlink - the tty device the process is running on
 
