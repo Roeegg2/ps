@@ -24,5 +24,5 @@
 11. Uid - status file - real, effective and saved uid
 12. Gid - status file - real, effective and saved gid
 13. Wchan - wchan file - the address of the kernel function the process is blocked in
-14. Tty - fd/0 symlink - the tty device the process is running on
+14. Tty - fd/0 symlink - the tty device the process is running on (in case there is no tty such as when the process is a daemon, a '?' is placed)
 
