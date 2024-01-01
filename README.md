@@ -1,6 +1,6 @@
 # Some notes:
 
-1. WCHAN value 0 means the process isnt waiting in a kernel function.
+1. WCHAN value 0 means the process isnt waiting for a resource
 2. I made the filename a parameter in the get_file_values and just used a '/stat' const to add support for later expansion (idk analyzing statm for more memory information and such)
 3. I initially added analsys for the 'status' file to get the UID's and GID's but was a pain in the ass to extract the values out, I dont want to waste my time on it. (but what is important is that I get the concept - it resides in the 'status' file in a process's directory)
 4. Utime and Stime are displayed in clock ticks.
